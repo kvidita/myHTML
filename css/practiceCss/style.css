@@ -1,0 +1,86 @@
+#page {
+  background-size: contain;
+  /* background-repeat: no-repeat; */
+  background-image: url(https://freefrontend.com/assets/img/css-background-patterns/2023-3d-lighted-cubes-tessellated-pattern-pure-css.png);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  margin: 0px;
+  background-color: black;
+}
+
+.page-1 {
+  box-sizing: border-box;
+  margin: 20px;
+  /* background-color: black; */
+  font-size: 25px;
+  text-align: center;
+}
+
+.pickachu {
+  font-size: 2em;
+  margin: 0 auto;
+  background-color: beige;
+  height: 500px;
+  aspect-ratio: 1;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(https://pokemonletsgo.pokemon.com/assets/img/common/char-pikachu.png);
+  background-image: linear-gradient(yellow, black);
+}
+
+.rgb {
+  box-sizing: border-box;
+  font-size: 2em;
+  margin: 0 auto;
+  background-color: indianred;
+  height: 400px;
+  aspect-ratio: 8/5;
+}
+
+.backgroundImg {
+  font-size: 2em;
+  text-align: center;
+  box-sizing: border-box;
+  width: 400px;
+  margin: 0 auto;
+  aspect-ratio: 0.5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://images.squarespace-cdn.com/content/v1/555d7b87e4b09797273ede15/1550630814355-EFQG4HIEAKJT8D0PE7X9/elena-wilken-surface-pattern-design-tropical-fields.jpg?format=1000w);
+}
+
+.clip-text {
+  color: transparent;
+  font-size: 6em;
+  font-weight: 800;
+  background-image: url(https://www.freecodecamp.org/news/content/images/2020/05/design-patterns.jpg);
+  text-align: center;
+  box-sizing: border-box;
+  height: 400px;
+  margin: 0 auto;
+  aspect-ratio: 2;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.clip-img {
+  /* color: transparent; */
+  font-size: 6em;
+  font-weight: 800;
+  background-image: url(https://www.freecodecamp.org/news/content/images/2020/05/design-patterns.jpg);
+  text-align: center;
+  box-sizing: border-box;
+  height: 400px;
+  margin: 0 auto;
+  aspect-ratio: 2/1;
+  /* background-clip: text;
+  -webkit-background-clip: text; */
+}
+
+
+
+#png {
+  box-sizing: border-box;
+  height: 200px;
+  aspect-ratio: 1;
+}

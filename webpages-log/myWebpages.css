@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 1em;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(#EBC7E6, #A084DC);
+}
+
+header {
+  font-size: 4em;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.webpages a {
+  font-size: 2em;
+  padding-left: 3em;
+  text-decoration: none;
+  color: black;
+  line-height: 1.5em;
+}

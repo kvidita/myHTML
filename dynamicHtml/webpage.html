@@ -1,0 +1,42 @@
+<html>
+
+<head>
+  <title>Document</title>
+  <script>
+    const displayGreeting = (greetMsg) => {
+      const greetMsgBox = document.createElement("h2");
+      greetMsgBox.innerText = greetMsg;
+      document.body.appendChild(greetMsgBox);
+    };
+
+    const delayedPrompt = (cb) => {
+      setTimeout(() => {
+        const greetMsg = prompt("hlw");
+        cb(greetMsg);
+      }, 1000);
+    };
+
+    const promptAndDisplay = () => {
+      delayedPrompt(displayGreeting);
+    };
+
+    const sayHello = () => {
+      const textElement = document.createElement('p');
+      textElement.innerText = "hello";
+
+      const container = document.querySelector(".greetBox");
+      container.appendChild(textElement);
+    };
+
+    window.onload = sayHello;
+  </script>
+</head>
+
+<body>
+  <main>
+    <div class="greetBox">
+    </div>
+  </main>
+</body>
+
+</html>

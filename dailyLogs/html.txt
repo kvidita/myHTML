@@ -1,0 +1,30 @@
+html, body,
+heading tags: h1, h2, h3, ... to h6.
+paragraph p
+bold b, italic i, underline u, break br.
+lists: 
+    ordered and unordered.
+    ol          ul
+    list item: li
+table:
+  table,
+  table row tr.
+  table heading th.
+  table data td.
+
+anchor: <a href="url here">Visit google</a>
+
+head:
+    title:
+
+    what is Inline elements and block elements. Span is inline element.
+pre tag
+id
+anchor tag with id
+anchor tag with target  "_blank"
+
+Styling
+color, background-color, font-size, font-family, border-style, border-color, text-decoration, text-align
+
+By default style get inherit , you can override style in child.
+image:- img tag - using path and url

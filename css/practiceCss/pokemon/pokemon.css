@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page {
+  width: 100%;
+  height: 95%;
+  margin: 0 auto;
+  background-color: hsl(0, 0%, 7%);
+}
+
+#heading {
+  width: 100%;
+  height: 5%;
+  background-color: black;
+}
+
+.menu {
+  width: 25%;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  font-size: 4em;
+  font-weight: 800;
+  text-align: center;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/03/12/83/06/500_F_312830664_mH5mZOT2OylDbQhiyKull2aiFT2lXpAA.jpg);
+}
+
+.characters {
+  margin-left: 25%;
+  overflow: scroll;
+  width: 75%;
+  height: 100%;
+  background-color: black;
+}
+
+.pokemon {
+  border: 1px solid black;
+  margin: 0 auto;
+  height: 60%;
+  box-shadow: 0.5em 0.5em 3em gray;
+  border-radius: 2em;
+  aspect-ratio: 0.7;
+  background-color: teal;
+}
+
+#first {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png);
+  margin-bottom: 2em;
+}
+
+#second {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png);
+  margin-bottom: 2em;
+}
+
+#third {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png);
+  margin-bottom: 2em;
+}
+
+#fourth {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png);
+  margin-bottom: 2em;
+}
+
+#first:hover {
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/020.png);
+}
+
+#second:hover {
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png);
+}
+
+#third:hover {
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/078.png);
+}
+
+#fourth:hover {
+  background-image: url(https://assets.pokemon.com/assets/cms2/img/pokedex/full/120.png);
+}
+
+.footer {
+  position: absolute;
+  bottom: 0%;
+  right: 0;
+  width: 75%;
+  height: 5%;
+  background-color: black;
+}
